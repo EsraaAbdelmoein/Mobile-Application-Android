@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Number 1 -->
+    <EditText
+        android:id="@+id/editText_Num1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter number 1"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Number 2 -->
+    <EditText
+        android:id="@+id/editText_Num2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter number 2"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Row of buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/button_add"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Add"
+            android:onClick="onAdd" />
+
+        <Button
+            android:id="@+id/button_sub"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sub"
+            android:onClick="onSub" />
+
+        <Button
+            android:id="@+id/button_mul"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Mul"
+            android:onClick="onMul" />
+
+        <Button
+            android:id="@+id/button_div"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Div"
+            android:onClick="onDiv" />
+    </LinearLayout>
+
+    <!-- Read-only answer -->
+    <TextView
+        android:id="@+id/textView_Answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer:"
+        android:textSize="20sp"
+        android:focusable="false"
+        android:clickable="false" />
+
+</LinearLayout>
