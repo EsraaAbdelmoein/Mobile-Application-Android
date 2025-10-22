@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.M03_Bounce" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+    </style>
+
+    <style name="Theme.M03_Bounce" parent="Base.Theme.M03_Bounce" />
+
+    <style name="mySpinnerItemStyle" parent="ThemeOverlay.AppCompat.Dark">
+        <item name="android:colorPrimary">#909</item>
+        <item name="android:colorBackground">#FFFF00FF</item>
+        <item name="android:colorControlNormal">#F01</item>
+        <item name="android:colorForeground">#F09</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:color">#FF2</item>
+    </style>
+
+    <style name="mySeekBarItemStyle" parent="Widget.AppCompat.SeekBar">
+        <item name="android:progressBackgroundTint">#f4511e</item>
+        <item name="android:progressTint">#388e3c</item>
+        <item name="android:thumbTint">#c51162</item>
+    </style>
+
+</resources>

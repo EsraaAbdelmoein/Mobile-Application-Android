@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">M03_Bounce</string>
+
+    <string-array name="Color">
+        <item>Red</item>
+        <item>Blue</item>
+        <item>White</item>
+    </string-array>
+
+    <string-array name="X">
+        <item>100</item>
+        <item>X=200</item>
+        <item>X=300</item>
+    </string-array>
+
+    <string-array name="Y">
+        <item>100</item>
+        <item>Y=200</item>
+        <item>Y=300</item>
+        <item>Y=400</item>
+    </string-array>
+
+    <string-array name="DX">
+        <item>1</item>
+        <item>DX=2</item>
+        <item>DX=3</item>
+        <item>DX=4</item>
+    </string-array>
+
+    <string-array name="DY">
+        <item>1</item>
+        <item>DY=2</item>
+        <item>DY=3</item>
+        <item>DY=4</item>
+    </string-array>
+
+</resources>
