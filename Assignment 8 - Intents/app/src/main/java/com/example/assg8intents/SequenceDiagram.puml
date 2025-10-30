@@ -1,0 +1,17 @@
+@startuml
+title Get Picture App (Intents)
+
+actor User
+participant MainActivity
+participant GalleryApp
+participant DrawingView
+participant Screen
+
+User -> MainActivity : Launch App
+MainActivity -> GalleryApp : Send Intent to pick image
+GalleryApp --> MainActivity : Return selected image (URI)
+MainActivity -> DrawingView : Set image as background
+User -> DrawingView : Draw on image
+DrawingView -> Screen : Display drawing on image
+
+@enduml
